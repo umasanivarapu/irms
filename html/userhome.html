@@ -1,22 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+	<link rel="stylesheet" type="text/css" href="../css/userhome.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>User Home Page</title>
-</head>
-<style>
-body {
-  background-image: url('../Images/tower2.jpg');
-    background-repeat: no-repeat;
-	 background-attachment: fixed;
-  background-size: 100% 100%;
-
-}
-</style>
+  </head>
   <body> 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -46,8 +38,25 @@ body {
 		</div>
 	</nav>
 	<br/><br/>
-	<div align="center">
-		
+	<div class="wrapper">
+		<div id="content">
+            <button type="button" id="sidebarCollapse" class="navbar-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav id="sidebar">
+
+            <!-- Sidebar Links -->
+            <ul class="list-unstyled components">
+                <li class="active"><a href="#">Account Settings</a></li>
+                <li><a href="#">Borrowed Resources</a></li>
+                <li><a href="#">My History</a></li>
+            </ul>
+        </nav>
+
 	</div>
+	<script src="../js/userhome.js"></script>
   </body>
 </html>
