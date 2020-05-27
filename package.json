@@ -1,0 +1,23 @@
+{
+  "name": "irms",
+  "version": "1.0.0",
+  "description": "Resource Management System(RMS) is intended to manage the common resources among the community. We have developed the system for a college community like ours(IITH).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umasanivarapu/irms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umasanivarapu/irms/issues"
+  },
+  "homepage": "https://github.com/umasanivarapu/irms#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
